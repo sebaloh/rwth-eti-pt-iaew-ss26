@@ -10,10 +10,10 @@ kwData = [
 % Nr    SvO Pmin  Pmax    c_var   c_fix   c_anf  RU_RD   SU_SD   P_t<0   SnO
   1     1   110   450     12.00   2000    36000  160     110     450     1    % KOHLEKRAFTWERK
   2     1   70    270     42.00   700     11000  160     70      270     1    % GASKRAFTWERK
-  3     0   20    90      7.00    350     0      0       20      0       1    % WINDENERGIEANLAGE ONSHORE
-  4     0   110   420     8.00    1900    0      0       110     0       1    % WINDENERGIEANLAGE OFFSHORE
+  3     0   0     90      7.00    350     0      0       0       0       1    % WINDENERGIEANLAGE ONSHORE
+  4     0   0     420     8.00    1900    0      0       0       0       1    % WINDENERGIEANLAGE OFFSHORE
   5     0   0     160     0.00    250     0      0       0       0       1    % PHOTOVOLTAIKANLAGE
-  6     1   50    120     5.00    1200    0      0       50      120     1    % LAUFWASSERKRAFTWERK
+  6     1   50    120     5.00    1200    0      0       0       120     1    % LAUFWASSERKRAFTWERK
 ];
 nPP = 6; % Anzahl Kraftwerke
 
